@@ -4,19 +4,28 @@
 	"menu_slug": "menu_slug",
 	"dashicon": "dashicons-admin-settings",
 	"position": 0,
-	"option_name": "my_plugin_name_options",
+	"settings_slug": "my_plugin_name_options",
+  "app_style":{
+    "color":"black",
+    "dark":true
+  },
 	"form_fields": [{
-			"field_name": "Example field 1",
+			"option_slug": "example_1",
 			"component": "VTextField",
 			"default_value": null,
-			"props": {},
-			"columns": 6
+			"props": {
+        "outlined":true
+      },
+			"columns": 12
 		},
 		{
-			"field_name": "Example field 2",
+			"option_slug": "example_2",
 			"component": "VSelect",
 			"default_value": null,
-			"props": {},
+			"props": {
+        "outlined":true,
+        "items":["a","b","c"]
+      },
 			"columns": 6
 		}
 	]
