@@ -1,26 +1,23 @@
 {
- page_title:'Page Title',
- menu_title:'Menu Title',
- menu_slug:'menu_slug',
- dashicon:'dashicons-admin-settings',
- position:0,
- option_name:'my_plugin_name_options',
- form_fields:[
-  {
-    field_name:'Example field 1',
-    component:'VTextField',
-    default_value:null,
-    props:{
-    },
-    columns:6
-  },
-  {
-    field_name:'Example field 2',
-    component:'VSelect',
-    default_value:null,
-    props:{
-    },
-    columns:6
-  }
- ]
+	"page_title": "Page Title",
+	"menu_title": "Menu Title",
+	"menu_slug": "menu_slug",
+	"dashicon": "dashicons-admin-settings",
+	"position": 0,
+	"option_name": "my_plugin_name_options",
+	"form_fields": [{
+			"field_name": "Example field 1",
+			"component": "VTextField",
+			"default_value": null,
+			"props": {},
+			"columns": 6
+		},
+		{
+			"field_name": "Example field 2",
+			"component": "VSelect",
+			"default_value": null,
+			"props": {},
+			"columns": 6
+		}
+	]
 }
