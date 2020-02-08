@@ -1,32 +1,63 @@
 {
-	"page_title": "Page Title",
-	"menu_title": "Menu Title",
-	"menu_slug": "menu_slug",
-	"dashicon": "dashicons-admin-settings",
-	"position": 0,
-	"settings_slug": "my_plugin_name_options",
-  "app_style":{
-    "color":"black",
-    "dark":true
-  },
-	"form_fields": [{
-			"option_slug": "example_1",
-			"component": "VTextField",
-			"default_value": null,
-			"props": {
-        "outlined":true
-      },
-			"columns": 12
+	"FormConfiguration": {
+		"page_title": "Page Title",
+		"menu_title": "Menu Title",
+		"menu_slug": "menu_slug",
+		"dashicon": "dashicons-admin-settings",
+		"position": 0,
+		"settings_slug": "my_plugin_name_options",
+		"app_style": {
+			"color": "black",
+			"dark": true
 		},
-		{
-			"option_slug": "example_2",
-			"component": "VSelect",
-			"default_value": null,
-			"props": {
-        "outlined":true,
-        "items":["a","b","c"]
-      },
-			"columns": 6
-		}
-	]
+		"form_sections": [{
+				"section_title": "Section Title 1",
+        "section_icon": "mdi-account",
+				"form_fields": [{
+          "option_slug": "example_1",
+          "option_name": "Example 1",
+						"component": "VTextField",
+						"default_value": null,
+						"props": {
+							"outlined": true
+						}
+					},
+					{
+						"option_slug": "example_2",
+            "option_name": "Example 2",
+						"component": "VSelect",
+						"default_value": null,
+						"props": {
+							"outlined": true,
+							"items": ["a", "b", "c"]
+						}
+					}
+				]
+			},
+			{
+				"section_title": "Cibeez",
+        "section_icon": "mdi-account",
+				"form_fields": [{
+						"option_slug": "example_3",
+            "option_name": "Example 3",
+						"component": "VTextField",
+						"default_value": null,
+						"props": {
+							"outlined": true
+						}
+					},
+					{
+						"option_slug": "example_4",
+            "option_name": "Example 4",
+						"component": "VSelect",
+						"default_value": null,
+						"props": {
+							"outlined": true,
+							"items": ["a", "b", "c"]
+						}
+					}
+				]
+			}
+		]
+	}
 }
